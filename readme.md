@@ -60,12 +60,14 @@ Dataset fields:
 
 ```
 Sentiment-Analysis/
-├── training.1600000.processed.noemoticon.csv
-├── sentiment_model.pkl            # Trained model
-├── tfidf_vectorizer.pkl           # Saved TF-IDF vectorizer
-├── sentiment_analysis.py          # Main training & preprocessing code
-├── predict_example.py             # Sample script to load and predict
-└── README.md                      # Project summary (this file)
+├── Sentiment Analysis using ML.ipynb   # ✅ Original Colab notebook (saved from Colab to GitHub)
+├── sentiment_model.pkl                 # ✅ Trained Logistic Regression model (saved via pickle)
+├── tfidf_vectorizer.pkl                # ✅ Saved TF-IDF vectorizer (for transforming new tweets)
+├── predict_example.py                  # ✅ Script to load model and predict new tweet sentiment
+├── requirements.txt                    # ✅ List of Python dependencies for the project
+├── README.md                           # ✅ Project summary, steps, and instructions
+├── .gitignore                          # ✅ Tells GitHub to ignore large files like full dataset
+
 ```
 
 ---
