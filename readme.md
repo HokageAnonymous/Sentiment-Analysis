@@ -60,13 +60,13 @@ Dataset fields:
 
 ```
 Sentiment-Analysis/
-├── Sentiment Analysis using ML.ipynb   # ✅ Original Colab notebook (saved from Colab to GitHub)
-├── sentiment_model.pkl                 # ✅ Trained Logistic Regression model (saved via pickle)
-├── tfidf_vectorizer.pkl                # ✅ Saved TF-IDF vectorizer (for transforming new tweets)
-├── predict_example.py                  # ✅ Script to load model and predict new tweet sentiment
-├── requirements.txt                    # ✅ List of Python dependencies for the project
-├── README.md                           # ✅ Project summary, steps, and instructions
+├── Model made via pickle               # ✅ Trained Logistic Regression model in .pkl and .sav (saved via pickle)
 ├── .gitignore                          # ✅ Tells GitHub to ignore large files like full dataset
+├── Sentiment Analysis using ML.ipynb   # ✅ Original Colab notebook (saved from Colab to GitHub)
+├── predict_example.py                  # ✅ Script to load model and predict new tweet sentiment
+├── README.md                           # ✅ Project summary, steps, and instructions
+├── requirements.txt                    # ✅ List of Python dependencies for the project
+├── tfidf_vectorizer.pkl                # ✅ Saved TF-IDF vectorizer (for transforming new tweets)
 
 ```
 
